@@ -5,12 +5,12 @@ import Page from "../components/page";
 
 const Router = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/:id" element={<Page />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
